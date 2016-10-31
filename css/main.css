@@ -23,7 +23,7 @@
   flex-wrap: wrap;
   }
 
-  .row > div[class*='col-'] {
+  .row-flex > div[class*='col-'] {
   display: flex;
   flex:1 0 auto;
   }
