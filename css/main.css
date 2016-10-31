@@ -1,0 +1,31 @@
+.jumbotron {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-image: url('../img/nightlife.jpg');
+  background-size: cover;
+}
+
+.jumbo-faded-bg {
+  background-color: rgba(0,0,0, 0.5);
+  margin: 0;
+  padding: 2rem;
+  color: #fff;
+}
+
+
+@media (min-width:992px){
+
+  .row {
+  display: flex;
+  flex-wrap: wrap;
+  }
+
+  .row > div[class*='col-'] {
+  display: flex;
+  flex:1 0 auto;
+  }
+  
+}
