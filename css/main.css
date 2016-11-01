@@ -9,6 +9,7 @@
 
 .jumbotron {
   display: flex;
+  -webkit-display:flex;
   height: 100vh;
   flex-direction: column;
   justify-content: center;
@@ -24,7 +25,7 @@
   color: #fff;
 }
 
-.card-le {
+/*.card-le {
   display: flex;
   flex-direction: column;
 }
@@ -41,7 +42,7 @@
 
 .btn-primary-le {
   align-self: center;
-}
+}*/
 
 
 /****************************************
