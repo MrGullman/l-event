@@ -25,6 +25,12 @@
   color: #fff;
 }
 
+.catering-wrapper {
+  background-color: #f7931e;
+  display: block;
+  width: 100%;
+}
+
 /*.card-le {
   display: flex;
   flex-direction: column;
